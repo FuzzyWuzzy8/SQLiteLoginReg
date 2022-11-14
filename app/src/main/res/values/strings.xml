@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SQLiteLoginReg</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="not_registered">Not registered?</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="already_registered">Already registered?</string>
+    <string name="welcome_user">Welcome user</string>
+    <string name="language">Language</string>
+    <string name="entertext">Enter text</string>
+    <string name="loginerror">Login Error</string>
+    <string name="registrationerror">Registration error</string>
+    <string name="haveregistered">You have registered</string>
+    <string name="password_not_match">Password is not matching</string>
+</resources>
