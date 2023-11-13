@@ -114,7 +114,7 @@ public class LoginActivity extends AppCompatActivity {
                     recreate();
                 }
                 else if (i == 4){
-                    //German
+                    //Spanish
                     setLocale("es");
                     recreate();
                 }
