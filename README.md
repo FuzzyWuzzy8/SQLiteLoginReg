@@ -19,7 +19,7 @@ This Android application provides a simple login and registration system using S
 
 - User registration with username and password
 - User login verification
-- Multilingual support (English, Polish, French, German, Spanish)
+- Multilingual support (English, German, French, Polish and Spanish)
 
 ## Technologies
 
