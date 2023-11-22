@@ -62,4 +62,4 @@ The `RegisterActivity` class manages user registration. It includes the registra
 2. **Registration:** Sign up with a new username and password.
 
 ## Screenshots
-
+<!-- Add more screenshots later -->
