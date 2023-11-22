@@ -85,7 +85,49 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
 
+    private void showChangeLanguageDialog() {
+        final String[] listItems = {"English", "Polish", "French", "German", "Spanish"};
+        AlertDialog.Builder mBuilder = new AlertDialog.Builder(LoginActivity.this);
+        mBuilder.setTitle("Choose language");
+        mBuilder.setSingleChoiceItems(listItems, -1, new DialogInterface.OnClickListener(){
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i){
+                switch (i){
+        case 0:
+            // English
+            setLocale("en");
+            recreate();
+            break;
+        case 1:
+            // Polish
+            setLocale("pl");
+            recreate();
+            break;
+        case 2:
+            // French
+            setLocale("fr");
+            recreate();
+            break;
+        case 3:
+            // German
+            setLocale("de");
+            recreate();
+            break;
+        case 4:
+            // Spanish
+            setLocale("es");
+            recreate();
+            break;                  
+            }
+        dialogInterface.dismiss();   //dismiss alert dialog when language is selected
+            }
+        });
+        AlertDialog mDialog = mBuilder.create();
+        mDialog.show();                     //show alert dialog
+    }
 
+    // moved to switch
+    /*
     private void showChangeLanguageDialog() {
         final String[] listItems = {"English", "Polish", "French", "German", "Spanish"};
         AlertDialog.Builder mBuilder = new AlertDialog.Builder(LoginActivity.this);
@@ -126,6 +168,7 @@ public class LoginActivity extends AppCompatActivity {
         mDialog.show();                     //show alert dialog
 
     }
+    */
 
     private void setLocale(String lang) {
         Locale locale = new Locale(lang);
