@@ -117,7 +117,12 @@ public class LoginActivity extends AppCompatActivity {
             // Spanish
             setLocale("es");
             recreate();
-            break;                  
+            break;
+        case 5:
+            // Turkish
+            setLocale("tr");
+            recreate();
+            break;                         
             }
         dialogInterface.dismiss();   //dismiss alert dialog when language is selected
             }
