@@ -96,7 +96,7 @@ public class RegisterActivity extends AppCompatActivity {
 
     //
     private void showChangeLanguageDialog() {
-        final String[] listItems = {"English", "Polish", "French", "German", "Spanish"};
+        final String[] listItems = {"English", "Polish", "French", "German", "Spanish", "Turkish"};
         AlertDialog.Builder mBuilder = new AlertDialog.Builder(RegisterActivity.this);
         mBuilder.setTitle("Choose language");
         mBuilder.setSingleChoiceItems(listItems, -1, new DialogInterface.OnClickListener(){
