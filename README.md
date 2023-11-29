@@ -63,3 +63,4 @@ The `RegisterActivity` class manages user registration. It includes the registra
 
 ## Screenshots
 <!-- Add more screenshots later -->
+![Screenshot 1](https://github.com/FuzzyWuzzy8/SQLiteLoginReg/blob/master/screenshots/SQL_1.png)
