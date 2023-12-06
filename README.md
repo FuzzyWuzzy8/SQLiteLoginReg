@@ -38,7 +38,6 @@ This Android application was developed using the following technologies:
 ## Classes
 
 ### 1. DatabaseHelper
-
 The `DatabaseHelper` class manages the SQLite database creation and version management. It includes methods for adding users and checking user credentials.
 
 ### 2. HomeActivity
@@ -51,17 +50,25 @@ The `LoginActivity` class handles user login. It includes the login form and fun
 The `RegisterActivity` class manages user registration. It includes the registration form and language change functionality.
 
 ## Installation
-
 1. Clone the repository.
+   ```bash
+   git clone https://github.com/FuzzyWuzzy8/SQLiteLoginReg.git
+   
 2. Open the project in Android Studio.
 3. Build and run the application on an Android emulator or device.
 
-## Usage
+**To install app on your Android device, follow these steps:**
+1. Download the APK file from the [Releases](release-url) page.
+2. Enable installation from unknown sources in your device settings.
+3. Install the APK on your Android device.
+4. Open the SQLiteLoginReg app.
 
+## Usage
 1. **Login:** Enter your username and password to access the app.
 2. **Registration:** Sign up with a new username and password.
 
 ## Screenshots
-<!-- Add more screenshots later -->
 ![Screenshot 1](https://github.com/FuzzyWuzzy8/SQLiteLoginReg/blob/master/screenshots/SQL_1.png)
 ![Screenshot 2](https://github.com/FuzzyWuzzy8/SQLiteLoginReg/blob/master/screenshots/SQL_2.png)
+<!-- Add more screenshots later -->
+
