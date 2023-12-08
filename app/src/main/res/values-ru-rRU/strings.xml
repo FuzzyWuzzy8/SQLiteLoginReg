@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SQLiteLoginReg</string>
+    <string name="login">Авторизоваться</string>
+    <string name="username">Имя пользователя</string>
+    <string name="password">Пароль</string>
+    <string name="not_registered">Не зарегистрирован?</string>
+    <string name="register">регистр</string>
+    <string name="confirm_password">Подтвердите пароль</string>
+    <string name="already_registered">Уже зарегистрирован?</string>
+    <string name="welcome_user">Добро пожаловать пользователь</string>
+    <string name="language">Язык</string>
+    <string name="entertext">Введите текст</string>
+    <string name="loginerror">Ошибка входа</string>
+    <string name="registrationerror">Ошибка регистрации</string>
+    <string name="haveregistered">Вы зарегистрировались</string>
+    <string name="password_not_match">Пароль не соответствует</string>
+</resources>

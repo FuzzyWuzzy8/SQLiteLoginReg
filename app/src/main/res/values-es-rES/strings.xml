@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SQLiteLoginReg</string>
+    <string name="login">Acceso</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="not_registered">¿No registrado?</string>
+    <string name="register">Registro</string>
+    <string name="confirm_password">Confirmar Contraseña</string>
+    <string name="already_registered">¿Ya registrado?</string>
+    <string name="welcome_user">Bienvenido usuario</string>
+    <string name="language">Idioma</string>
+    <string name="entertext">Ingrese texto</string>
+    <string name="loginerror">Error de inicio de sesión</string>
+    <string name="registrationerror">Error de registro</string>
+    <string name="haveregistered">te has registrado</string>
+    <string name="password_not_match">La contraseña no coincide</string>
+</resources>
