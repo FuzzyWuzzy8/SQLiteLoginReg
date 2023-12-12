@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">SQLiteLoginReg</string>
+    <string name="login">Giriş yapmak</string>
+    <string name="username">Kullanıcı adı</string>
+    <string name="password">Şifre</string>
+    <string name="not_registered">Kayıtlı değil?</string>
+    <string name="register">Kayıt olmak</string>
+    <string name="confirm_password">Şifreyi Onayla</string>
+    <string name="already_registered">Zaten kayıtlı?</string>
+    <string name="welcome_user">Kullanıcıya hoş geldiniz</string>
+    <string name="language">Dil</string>
+    <string name="entertext">Metni girin</string>
+    <string name="loginerror">Sisteme giriş hatası</string>
+    <string name="registrationerror">Kayıt Hatası</string>
+    <string name="haveregistered">Kayıt oldunuz</string>
+    <string name="password_not_match">Şifre eşleşmiyor</string>
 </resources>
