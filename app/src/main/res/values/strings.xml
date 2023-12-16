@@ -14,4 +14,7 @@
     <string name="registrationerror">Registration error</string>
     <string name="haveregistered">You have registered</string>
     <string name="password_not_match">Password is not matching</string>
+    <string name="user_already_registered">User with this ID is already registered</string>
+
+
 </resources>

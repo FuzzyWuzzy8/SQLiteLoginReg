@@ -70,6 +70,7 @@ public class RegisterActivity extends AppCompatActivity {
 
                 if (passwordText.getText().toString() != null && !passwordText.getText().toString().isEmpty()) { //not empty/null
                     if (password.equals(confirm_password)) {                                                      //check both pw
+                        if (!isAlreadyRegistered(user)) {
                         long val = db.addUser(user, password);
                         if (val > 0) {
                             Toast.makeText(RegisterActivity.this, getString(R.string.haveregistered), Toast.LENGTH_SHORT).show();    //if correct register
@@ -82,6 +83,10 @@ public class RegisterActivity extends AppCompatActivity {
                         }
 
                     } else {
+                        Toast.makeText(RegisterActivity.this, getString(R.string.user_already_registered), Toast.LENGTH_SHORT).show();
+                    }
+
+                    } else {
                         Toast.makeText(RegisterActivity.this, getString(R.string.password_not_match), Toast.LENGTH_SHORT).show();
                         //Toast.makeText(RegisterActivity.this, "Password is not matching", Toast.LENGTH_SHORT).show();
                     }
@@ -92,6 +97,11 @@ public class RegisterActivity extends AppCompatActivity {
                 }//
             }
         });
+    }
+
+    //check if the user is already registered
+    private boolean isAlreadyRegistered(String username) {
+        return db.checkUserExists(username);
     }
 
     //
