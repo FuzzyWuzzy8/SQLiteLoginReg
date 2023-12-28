@@ -155,43 +155,6 @@ public class RegisterActivity extends AppCompatActivity {
         AlertDialog mDialog = mBuilder.create();
         mDialog.show();                     //show alert dialog
     }
-     /*
-            @Override
-            public void onClick(DialogInterface dialogInterface, int i){
-                if (i == 0){
-                    //English
-                    setLocale("en");
-                    recreate();
-                }
-                else if (i == 1){
-                    //Polish
-                    setLocale("pl");
-                    recreate();
-                }
-                else if (i == 2){
-                    //French
-                    setLocale("fr");
-                    recreate();
-                }
-                else if (i == 3){
-                    //German
-                    setLocale("de");
-                    recreate();
-                }
-                else if (i == 4){
-                    //Spanish
-                    setLocale("es");
-                    recreate();
-                }
-                dialogInterface.dismiss();   //dismiss alert dialog when language is selected
-
-            }
-        });
-        AlertDialog mDialog = mBuilder.create();
-        mDialog.show();                     //show alert dialog
-
-    }
-    */
 
     private void setLocale(String lang) {
         Locale locale = new Locale(lang);
